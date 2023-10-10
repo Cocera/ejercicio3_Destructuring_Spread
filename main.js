@@ -123,25 +123,26 @@ console.log(tomorrow);
 
 
 
-// No funciona
-const onlyUniques = (...argElements) => {
-    console.log(argElements);
-};
-onlyUniques('gato', 'pollo', 'cerdo', 'cerdo'); // ['gato', 'pollo', 'cerdo']
-onlyUniques(1, 1, 2, 2, 3, 6, 7, 8); // [1, 2, 3, 6, 7, 8]
+// const onlyUniques = (...argElements) => {
+//     const arrUniques = argElements.map(element => {
+//         console.log(element)
+//         if (element == element++) {
+//             arrUniques.pop()
+//         }
+//     })
+// };
+// onlyUniques('gato', 'pollo', 'cerdo', 'cerdo'); // ['gato', 'pollo', 'cerdo']
+// onlyUniques(1, 1, 2, 2, 3, 6, 7, 8); // [1, 2, 3, 6, 7, 8]
 
 
 
 
-// No funciona
-const combineAllArrays = (...arrays) => { 
-    console.log(arrays);
-    console.log(arrays.length);
-    // arrays.forEach(arr => ...arr)
-};
-
-combineAllArrays([3, 6, 7, 8],[2, 7, 3, 1]) // [3, 6, 7, 8, 2, 7, 3, 1]
-combineAllArrays([2, 7, 3, 1],[2, 7, 4, 12],[2, 44, 22, 7, 3, 1]); // [2, 7, 3, 1, 2, 7, 4, 12, 2, 44, 22, 7, 3, 1]
+// const combineAllArrays = (...arrays) => { 
+//     console.log(arrays);
+//     console.log(arrays.length);
+// };
+// combineAllArrays([3, 6, 7, 8],[2, 7, 3, 1]) // [3, 6, 7, 8, 2, 7, 3, 1]
+// combineAllArrays([2, 7, 3, 1],[2, 7, 4, 12],[2, 44, 22, 7, 3, 1]); // [2, 7, 3, 1, 2, 7, 4, 12, 2, 44, 22, 7, 3, 1]
 
 
 
