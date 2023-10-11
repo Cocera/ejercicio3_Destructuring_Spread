@@ -123,13 +123,14 @@ console.log(tomorrow);
 
 
 
+
+// PENDING
+// BUSCAR NEW SET METODO JS
 // const onlyUniques = (...argElements) => {
-//     const arrUniques = argElements.map(element => {
-//         console.log(element)
-//         if (element == element++) {
-//             arrUniques.pop()
-//         }
+//     const arrUniques = argElements.filter(element => {
+//         element != element++
 //     })
+//     console.log(arrUniques)
 // };
 // onlyUniques('gato', 'pollo', 'cerdo', 'cerdo'); // ['gato', 'pollo', 'cerdo']
 // onlyUniques(1, 1, 2, 2, 3, 6, 7, 8); // [1, 2, 3, 6, 7, 8]
@@ -137,6 +138,9 @@ console.log(tomorrow);
 
 
 
+// PENDING
+// BUSCAR CONCAT METODO JS
+// PROBAR OPCION BUCLE FOR
 // const combineAllArrays = (...arrays) => { 
 //     console.log(arrays);
 //     console.log(arrays.length);
